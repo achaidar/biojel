@@ -1,0 +1,24 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+#topBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 16px;
+    width: 40px;
+    height: 40px;
+    background-color: #047857;
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: 0px;
+    border-radius: 8px;
+}
+
+#topBtn:hover {
+    background-color: #FBBF24;
+    color: black;
+    outline: 0px;
+}
