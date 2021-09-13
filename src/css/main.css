@@ -1,8 +1,8 @@
 html {
-    scroll-behavior: smooth;
-  }
-  
-#topBtn {
+  scroll-behavior: smooth;
+}
+@media only screen and (min-width: 640px) {
+  #topBtn {
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -14,11 +14,56 @@ html {
     border: none;
     cursor: pointer;
     outline: 0px;
-    border-radius: 8px;
+    border-radius: 20px;
+  }
 }
 
 #topBtn:hover {
-    background-color: #FBBF24;
+  background-color: #000;
+  color: #fff;
+  outline: 0px;
+}
+
+@media only screen and (max-width: 640px) {
+  #topBtn {
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    font-size: 16px;
+    width: 40px;
+    height: 40px;
+    background-color: #047857;
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: 0px;
+    border-radius: 20px;
+  }
+
+  #topBtn:hover {
+    background-color: #000;
+    color: #fff;
+    outline: 0px;
+  }
+
+  #whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 16px;
+    width: 40px;
+    height: 40px;
+    background-color: #047857;
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: 0px;
+    border-radius: 20px;
+  }
+
+  #whatsapp:hover {
+    background-color: #fbbf24;
     color: black;
     outline: 0px;
+  }
 }
